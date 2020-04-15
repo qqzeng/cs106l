@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/workSpaces/cpp/cs106l/chapter_04/color.h
+
+F:/workSpaces/cpp/cs106l/chapter_04/main.cpp
+iostream
+-
+cstring
+-
+sstream
+-
+color.h
+F:/workSpaces/cpp/cs106l/chapter_04/color.h
+color.h
+F:/workSpaces/cpp/cs106l/chapter_04/color.h
+color.h
+F:/workSpaces/cpp/cs106l/chapter_04/color.h
+color.h
+F:/workSpaces/cpp/cs106l/chapter_04/color.h
+color.h
+F:/workSpaces/cpp/cs106l/chapter_04/color.h
+color.h
+F:/workSpaces/cpp/cs106l/chapter_04/color.h
+units.h
+F:/workSpaces/cpp/cs106l/chapter_04/units.h
+units.h
+F:/workSpaces/cpp/cs106l/chapter_04/units.h
+units.h
+F:/workSpaces/cpp/cs106l/chapter_04/units.h
+units.h
+F:/workSpaces/cpp/cs106l/chapter_04/units.h
+units.h
+F:/workSpaces/cpp/cs106l/chapter_04/units.h
+
+F:/workSpaces/cpp/cs106l/chapter_04/units.h
+

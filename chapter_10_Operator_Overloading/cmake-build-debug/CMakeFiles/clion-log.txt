@@ -1,0 +1,4 @@
+"D:\cpp_dev\clion\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\workSpaces\cpp\cs106l\chapter_10_Operator_Overloading
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/workSpaces/cpp/cs106l/chapter_10_Operator_Overloading/cmake-build-debug

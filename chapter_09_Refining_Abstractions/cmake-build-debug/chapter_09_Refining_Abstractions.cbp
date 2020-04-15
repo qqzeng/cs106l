@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="chapter_09_Refining_Abstractions"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter_09_Refining_Abstractions">
+				<Option output="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/chapter_09_Refining_Abstractions.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter_09_Refining_Abstractions"/>
+					<CompileFile command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter_09_Refining_Abstractions/fast">
+				<Option output="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/chapter_09_Refining_Abstractions.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter_09_Refining_Abstractions/fast"/>
+					<CompileFile command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/cpp_dev/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/AltairModule.h">
+			<Option target="chapter_09_Refining_Abstractions"/>
+		</Unit>
+		<Unit filename="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/MyVector.h">
+			<Option target="chapter_09_Refining_Abstractions"/>
+		</Unit>
+		<Unit filename="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/PointTale.h">
+			<Option target="chapter_09_Refining_Abstractions"/>
+		</Unit>
+		<Unit filename="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/RandomGenerator.h">
+			<Option target="chapter_09_Refining_Abstractions"/>
+		</Unit>
+		<Unit filename="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/RationalNumber.h">
+			<Option target="chapter_09_Refining_Abstractions"/>
+		</Unit>
+		<Unit filename="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/RealNumber.h">
+			<Option target="chapter_09_Refining_Abstractions"/>
+		</Unit>
+		<Unit filename="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/SnakeGame.h">
+			<Option target="chapter_09_Refining_Abstractions"/>
+		</Unit>
+		<Unit filename="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/UniquelyIdentified.h">
+			<Option target="chapter_09_Refining_Abstractions"/>
+		</Unit>
+		<Unit filename="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/main.cpp">
+			<Option target="chapter_09_Refining_Abstractions"/>
+		</Unit>
+		<Unit filename="F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

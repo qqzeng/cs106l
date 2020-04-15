@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/RandomGenerator.h
+ctime
+-
+cstdlib
+-
+
+F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/RationalNumber.h
+
+F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/RealNumber.h
+RationalNumber.h
+F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/RationalNumber.h
+
+F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/UniquelyIdentified.h
+iostream
+-
+
+F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/main.cpp
+iostream
+-
+UniquelyIdentified.h
+F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/UniquelyIdentified.h
+RationalNumber.h
+F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/RationalNumber.h
+RealNumber.h
+F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/RealNumber.h
+RandomGenerator.h
+F:/workSpaces/cpp/cs106l/chapter_09_Refining_Abstractions/RandomGenerator.h
+

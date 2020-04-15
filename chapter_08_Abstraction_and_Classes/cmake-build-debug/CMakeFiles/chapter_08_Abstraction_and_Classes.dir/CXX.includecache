@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/workSpaces/cpp/cs106l/chapter_08_Abstraction_and_Classes/GroceryList.cpp
+cstring
+-
+GroceryList.h
+F:/workSpaces/cpp/cs106l/chapter_08_Abstraction_and_Classes/GroceryList.h
+
+F:/workSpaces/cpp/cs106l/chapter_08_Abstraction_and_Classes/GroceryList.h
+string
+-
+map
+-
+
+F:/workSpaces/cpp/cs106l/chapter_08_Abstraction_and_Classes/KenoGame.cpp
+KenoGame.h
+F:/workSpaces/cpp/cs106l/chapter_08_Abstraction_and_Classes/KenoGame.h
+
+F:/workSpaces/cpp/cs106l/chapter_08_Abstraction_and_Classes/KenoGame.h
+vector
+-
+set
+-
+
+F:/workSpaces/cpp/cs106l/chapter_08_Abstraction_and_Classes/main.cpp
+iostream
+-
+GroceryList.h
+F:/workSpaces/cpp/cs106l/chapter_08_Abstraction_and_Classes/GroceryList.h
+

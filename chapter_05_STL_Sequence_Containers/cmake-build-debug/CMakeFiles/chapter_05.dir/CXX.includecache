@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/workSpaces/cpp/cs106l/chapter_05/main.cpp
+iostream
+-
+vector
+-
+deque
+-
+fstream
+-
+time.h
+-
+queue
+-
+

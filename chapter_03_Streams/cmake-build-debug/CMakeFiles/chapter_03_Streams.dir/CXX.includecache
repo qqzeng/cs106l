@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/workSpaces/cpp/cs106l/chapter_03_Streams/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+sstream
+-
+

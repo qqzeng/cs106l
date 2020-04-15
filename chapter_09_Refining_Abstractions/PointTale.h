@@ -1,0 +1,14 @@
+//
+// Created by GEORGE-pc on 2020/3/17.
+//
+
+#ifndef CHAPTER_09_REFINING_ABSTRACTIONS_POINTTALE_H
+#define CHAPTER_09_REFINING_ABSTRACTIONS_POINTTALE_H
+
+class PointTale {
+private:
+    int row;
+    int col;
+};
+
+#endif //CHAPTER_09_REFINING_ABSTRACTIONS_POINTTALE_H

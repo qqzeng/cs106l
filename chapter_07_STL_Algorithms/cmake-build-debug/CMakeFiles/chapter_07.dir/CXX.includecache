@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/workSpaces/cpp/cs106l/chapter_07/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+sstream
+-
+iterator
+-
+fstream
+-
+numeric
+-
+direct.h
+-
+cmath
+-
+map
+-
+set
+-
+time.h
+-
+

@@ -1,0 +1,3 @@
+F:/workSpaces/cpp/cs106l/chapter_11_Resource_Management/cmake-build-debug/CMakeFiles/chapter_11_Resource_Management.dir
+F:/workSpaces/cpp/cs106l/chapter_11_Resource_Management/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/workSpaces/cpp/cs106l/chapter_11_Resource_Management/cmake-build-debug/CMakeFiles/rebuild_cache.dir
