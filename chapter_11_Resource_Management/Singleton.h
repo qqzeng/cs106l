@@ -126,8 +126,12 @@ namespace Singleton_V3 {
 
     bool Singleton::releaseInstance() {
         if (Singleton::instance != NULL) {
-            delete Singleton::instance;
-            Singleton::instance = NULL;
+            pthread_mutex_lock(&mutex);
+            if (Singleton::instance != NULL) {
+                delete Singleton::instance;
+                Singleton::instance = NULL;
+            }
+            pthread_mutex_unlock(&mutex);
             return true;
         }
         return false;

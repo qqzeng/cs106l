@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/workSpaces/cpp/cs106l/chapter_12_Error_Handling/AutomaticStackManager.h
+iostream
+-
+stack
+-
+
+F:/workSpaces/cpp/cs106l/chapter_12_Error_Handling/main.cpp
+iostream
+-
+stack
+-
+AutomaticStackManager.h
+F:/workSpaces/cpp/cs106l/chapter_12_Error_Handling/AutomaticStackManager.h
+

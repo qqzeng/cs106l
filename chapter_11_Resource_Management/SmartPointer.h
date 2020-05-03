@@ -21,6 +21,8 @@ public:
 
     T* get() const;
     size_t getShareCount() const;
+    void reset(T* newRes);
+
 private:
     struct Intermediary {
         T* memory;
@@ -53,7 +55,8 @@ T &SmartPointer<T>::operator*() const {
 
 template <typename T>
 T *SmartPointer<T>::operator->() const {
-    return data->memory;
+//    return data->memory;
+    return &this->operator*();
 }
 
 template <typename T>
@@ -96,6 +99,14 @@ T *SmartPointer<T>::get() const {
 template <typename T>
 size_t SmartPointer<T>::getShareCount() const {
     return data->reference_count;
+}
+
+template <typename T>
+void  SmartPointer<T>::reset(T* newRes) {
+    detach();
+    data = new Intermediary;
+    data->memory = newRes;
+    data->reference_count = 1;
 }
 
 

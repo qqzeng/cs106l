@@ -92,6 +92,11 @@ void TestSmartPointer() {
     *myPtr2 = "This is another string";
     myPtr = myPtr2;
     cout << *myPtr << endl;
+    cout << myPtr.getShareCount() << endl;
+    string *s = new string("This is the third string");
+    myPtr.reset(s);
+    cout << *myPtr << endl;
+
 }
 
 
