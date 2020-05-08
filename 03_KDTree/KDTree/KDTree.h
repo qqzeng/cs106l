@@ -23,6 +23,8 @@
 // type std::size_t every time.
 using namespace std;
 
+//refer: https://github.com/yangyueren/CS106L/blob/master/03_KDTree/src/KDTree.h
+
 /* The defintion of node of KDTree. */
 template <size_t N, typename ElemType>
 struct Node{
