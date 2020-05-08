@@ -1,0 +1,4 @@
+如果测试报错 qt.network.ssl: QSslSocket::connectToHostEncrypted: TLS initialization faile，
+且控制台输出显示平台不支持SSL，则需要到 http://slproweb.com/products/Win32OpenSSL.html 下载当前系统理论上支持的 OpenSSL 版本
+下载安装后（注意在安装的第二个选项中，选择安装到指定的/bin目录下），
+将OpenSSL安装目录下的两个文件(libcrypto-1_1.dll 和libssl-1_1.dll)，拷贝到QT编译器目录（xxx/qt/qt5.14.2/Tools/mingw730_32/bin）。
